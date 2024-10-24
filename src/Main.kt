@@ -5,9 +5,9 @@
  *
  * by Torrian Kinred-Harding
  *
- * BRIEF PROJECT DESCRIPTION HERE
- * BRIEF PROJECT DESCRIPTION HERE
- * BRIEF PROJECT DESCRIPTION HERE
+ * My project will be based off the two-player game 'Old Gold'
+ * The aim is to win by being the player to remove the gold coin
+ * from the left-most square
  * ------------------------------------------------------------------------
  */
 
