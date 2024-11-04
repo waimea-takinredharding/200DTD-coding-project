@@ -17,7 +17,29 @@
  */
 fun main() {
 
-    var thing = mutableListOf<String>()
-    print("Enter your first name: ")
-    val first = readln()
+    val grid = mutableListOf<String>()
+
+    setupGame(grid)
+
+    showGame(grid)
+    //getting player names
+
+}
+
+
+fun setupGame(grid: MutableList<String>) {
+    repeat(20) {
+        grid.add(" ")
+    }
+
+    grid[12] ="S"
+    grid[13] ="G"
+}
+
+
+fun showGame(grid: MutableList<String>) {
+    for(square in grid) {
+        print("| $square ")
+    }
+    println("|")
 }
